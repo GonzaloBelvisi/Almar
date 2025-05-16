@@ -18,6 +18,33 @@ html {
     height: 100%;
     scroll-behavior: smooth;
   }
+
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#1ab152;
+    
+    animation: shake;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
   
   body {
     font-family: "Open Sans", sans-serif;
@@ -2769,4 +2796,29 @@ html {
     float: right;
     margin-top: 10px;
   }
+
+  #bananaCarousel .carousel-item {
+  padding: 30px 0;
+  }
+#bananaCarousel .carousel-item img {
+  max-height: 400px;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Hacer visibles los controles prev/next en fondos claros */
+#bananaCarousel .carousel-control-prev-icon,
+#bananaCarousel .carousel-control-next-icon {
+  filter: invert(1);
+  drop-shadow:(0 0 3px rgba(0, 0, 0, 0.5));
+}
+
+/* (Opcional) aumentar ligeramente el área clicable de las flechas */
+#bananaCarousel .carousel-control-prev,
+#bananaCarousel .carousel-control-next {
+  width: 6%;
+}
+
+
+
   

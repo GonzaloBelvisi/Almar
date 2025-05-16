@@ -1,0 +1,149 @@
+[
+  {
+    "id": "banana",
+    "title": "Banana",
+    "img": "assets/img2/banana-5.png",
+    "desc": "La banana es rica en potasio, vitaminas B6 y C, y aporta energía rápida gracias a sus carbohidratos. Ayuda a regular la presión arterial y a mantener el sistema nervioso en buen estado. Se conserva mejor a temperatura ambiente y no debe exponerse al frío intenso para evitar que pierda sabor.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "palta",
+    "title": "Palta",
+    "img": "assets/img/products/palta.png",
+    "desc": "La palta contiene grasas monoinsaturadas beneficiosas para la salud cardiovascular, además de vitamina E, K y fibra. Favorece la absorción de nutrientes liposolubles y aporta cremosidad a ensaladas y guacamoles. Para conservarla, guárdala a temperatura ambiente hasta que madure y luego refrigérala en un recipiente hermético.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "pina",
+    "title": "Piña",
+    "img": "assets/img/products/piña.png",
+    "desc": "La piña es reconocida por su contenido de bromelina, enzima con propiedades antiinflamatorias y digestivas. Aporta vitamina C y manganeso, fortaleciendo el sistema inmunitario y los huesos. Para mantener su frescura, consúmela pocas horas después de cortarla y refrigera en envase tapado.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "arandanos",
+    "title": "Arándanos",
+    "img": "assets/img/products/arandano.png",
+    "desc": "Los arándanos son muy ricos en antocianinas y antioxidantes que protegen la vista y la salud cardiovascular. Su aporte de fibra ayuda al tránsito intestinal y su sabor ácido-dulce los hace versátiles en batidos o yogures. Guárdalos en el refrigerador, sin lavar, en un recipiente aireado para que duren varios días.",
+    "categories": ["Diciembre - Junio"]
+  },
+  {
+    "id": "cereza",
+    "title": "Cereza",
+    "img": "assets/img/products/Cereza.png",
+    "desc": "Las cerezas aportan melatonina y antocianinas que mejoran la calidad del sueño y la recuperación muscular. Son fuente de vitamina A y C, y tienen efecto antiinflamatorio. Para conservarlas, mantenlas limpias y secas en la nevera en un recipiente con ventilación.",
+    "categories": ["Noviembre - Enero"]
+  },
+  {
+    "id": "ciruela",
+    "title": "Ciruela",
+    "img": "assets/img/products/ciruela.png",
+    "desc": "Las ciruelas son ricas en fibra soluble y sorbitol, que favorecen la digestión y alivian el estreñimiento. Contienen vitamina C y antioxidantes, y su dulzura natural es perfecta para mermeladas. Guárdalas a temperatura ambiente hasta que maduren y luego consúmelas rápido o refrigéralas.",
+    "categories": ["Marzo - Noviembre"]
+  },
+  {
+    "id": "coco",
+    "title": "Coco",
+    "img": "assets/img/products/coco.png",
+    "desc": "El coco ofrece grasas de cadena media que el organismo usa como energía rápida, y su agua es rica en electrolitos para la hidratación. La pulpa aporta fibra y minerales como el magnesio. Conservalo en lugar fresco o en la nevera si está partido.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "lima",
+    "title": "Lima",
+    "img": "assets/img/products/lima.png",
+    "desc": "La lima aporta vitamina C y flavonoides que refuerzan el sistema inmunitario y facilitan la digestión. Su jugo aromático es ideal para aderezos y bebidas. Guárdala en la nevera para prolongar su frescura hasta dos semanas.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "limon",
+    "title": "Limón",
+    "img": "assets/img/products/product-img-3.jpg",
+    "desc": "El limón es fuente de ácido cítrico, vitamina C y antioxidantes que benefician la piel y las defensas. Su jugo realza sabores en comidas y bebidas, además de actuar como conservante natural. Mantén los limones en la nevera para que no pierdan humedad.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "melon-valenciano",
+    "title": "Melón Valenciano",
+    "img": "assets/img/products/Melón Valenciano.png",
+    "desc": "El melón valenciano destaca por su alto contenido de agua y vitamina C, siendo muy hidratante y alcalinizante. Aporta betacaroteno y potasio, ideal en dietas veraniegas. Córtalo y consúmelo frío o refrigéralo tapado para conservar su jugo.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "melon-cantaloupe",
+    "title": "Melón Cantaloupe",
+    "img": "assets/img/products/Melón Cantaloupe.png",
+    "desc": "El melón cantaloupe es muy rico en vitamina A (betacaroteno) y C, contribuyendo a la salud ocular y del sistema inmunitario. Su textura suave y sabor dulce lo hacen perfecto en ensaladas o postres. Conservalo en frío una vez partido.",
+    "categories": ["Abril - Octubre"]
+  },
+  {
+    "id": "melon-galia",
+    "title": "Melón Galia",
+    "img": "assets/img/products/MelonGalia.png",
+    "desc": "El melón Galia combina un aroma intenso con sabor dulce, aportando vitaminas B, C y minerales como el potasio. Es bajo en calorías y muy refrescante. Para guardarlo, mantenlo en la nevera y consúmelo en dos días.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "kiwi",
+    "title": "Kiwi",
+    "img": "assets/img/products/product-img-4.jpg",
+    "desc": "El kiwi aporta más vitamina C que muchas frutas cítricas, además de fibra y actinidina, enzima que mejora la digestión de proteínas. Su piel fina es comestible si se lava bien. Refrigéralo para prolongar su frescura hasta una semana.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "papaya",
+    "title": "Papaya",
+    "img": "assets/img/products/Papaya.png",
+    "desc": "La papaya contiene papaína, enzima digestiva que ayuda a procesar proteínas y mejora la absorción de nutrientes. Rica en vitamina A, C y folatos, fortalece la vista y el sistema inmunitario. Guárdala a temperatura ambiente hasta que esté madura y luego refrigérala.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "mango",
+    "title": "Mango",
+    "img": "assets/img/products/mango.png",
+    "desc": "El mango es rico en betacaroteno, vitaminas A y C, y fibra, promoviendo la salud ocular y digestiva. Su pulpa suave y jugosa se disfruta en batidos, ensaladas o postres. Manténlo a temperatura ambiente para que madure y refrigéralo una vez tierno.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "pomelo",
+    "title": "Pomelo",
+    "img": "assets/img/products/Pomelo.png",
+    "desc": "El pomelo aporta vitamina C y antioxidantes como la naringenina, que protegen el corazón y ayudan a controlar el colesterol. Su sabor mezcla notas amargas y dulces, ideal en desayunos. Para conservarlo, mantenlo en el refrigerador.",
+    "categories": ["Noviembre - Marzo"]
+  },
+  {
+    "id": "uva",
+    "title": "Uva",
+    "img": "assets/img/products/Uva.png",
+    "desc": "Las uvas contienen resveratrol, antioxidante que protege la salud cardiovascular y retrasa el envejecimiento celular. Ricas en vitaminas C y K, su piel y semilla aportan fibra. Guárdalas sin lavar en un recipiente aireado en la nevera.",
+    "categories": ["Junio - Octubre"]
+  },
+  {
+    "id": "sandia",
+    "title": "Sandía",
+    "img": "assets/img/products/Sandia.png",
+    "desc": "La sandía es un 90% agua y aporta licopeno, antioxidante que cuida la piel y el corazón. Su pulpa dulce e hidratante es ideal en días calurosos. Córtala y refrigérala tapada para conservar su jugo y frescura.",
+    "categories": ["Agosto - Octubre"]
+  },
+  {
+    "id": "papa",
+    "title": "Papa",
+    "img": "assets/img/products/papa.png",
+    "desc": "Llena de energía, la papa es uno de los cultivos más consumidos en el mundo. Contiene ácido fólico, vitamina C, vitaminas del grupo B, hierro y potasio. Se puede guardar pelada en agua fría con un chorrito de vinagre por hasta 4 días sin oscurecerse.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "boniato",
+    "title": "Boniato",
+    "img": "assets/img/products/boniato.png",
+    "desc": "El boniato combina muchos nutrientes además de hidratos de carbono: contiene vitamina A, C, E, ácido fólico y ayuda a la formación de glóbulos rojos y blancos. Es una de las hortalizas mejor digeribles. Guárdalo en lugar fresco, seco y oscuro; cocido se conserva en heladera o congelador.",
+    "categories": ["Todo el Año"]
+  },
+  {
+    "id": "cebolla",
+    "title": "Cebolla",
+    "img": "assets/img/products/cebolla.png",
+    "desc": "La cebolla tiene propiedades antisépticas, expectorantes y desinfectantes, gracias a sus aceites esenciales que contienen azufre. Estimula la actividad intestinal y la secreción de bilis, y es útil contra resfriados e infecciones. Para pelarla sin llorar, congélala 15 minutos antes de cortar.",
+    "categories": ["Todo el Año"]
+  }
+]
