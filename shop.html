@@ -33,9 +33,13 @@
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
+	
+
+
 </head>
 
 <body>
+	
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://wa.link/bmxw38" class="float" target="_blank">
@@ -243,7 +247,7 @@
 					<div class="single-product-item">
 						<div class="product-image">
 							<a href="frutas.html?id=melon-valenciano"><img
-									src="assets/img/products/Melón Valenciano.png" alt=""></a>
+									src="assets/img/melon-amarillo-Photoroom.png" alt=""></a>
 						</div>
 						<h3>Melón Valenciano</h3>
 						<p class="product-price"><span>Todo el Año</span></p>
@@ -500,6 +504,11 @@
 
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
+
+<!-- Isotope -->
+<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+<!-- imagesLoaded (necesitas este plugin) -->
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<!-- bootstrap -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<!-- count down -->
@@ -518,6 +527,23 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+	<script>
+  // Esperar a que todo (incluyendo imágenes) termine de cargar
+  $(window).on('load', function() {
+    var $grid = $('.product-lists').isotope({
+      // Tus "items" son los cols, no el .single-product-item
+      itemSelector: '.col-lg-4',
+      layoutMode: 'fitRows'
+    });
+
+    // Re-layout cada vez que una imagen termine de cargar
+    $grid.imagesLoaded().progress(function() {
+      $grid.isotope('layout');
+    });
+  });
+</script>
+
 
 </body>
 
